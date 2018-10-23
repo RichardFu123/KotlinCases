@@ -5,7 +5,7 @@ fun main(args: Array<String>) {
     printArrayList(array)
 }
 
-public fun printArrayList(arrayList: ArrayList<Any>):Unit{
+public fun printArrayList(arrayList: ArrayList<out Any>):Unit{
     for(i in arrayList){
         println(i.toString())
     }

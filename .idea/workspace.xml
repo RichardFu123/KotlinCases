@@ -2,16 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddb5e96b-2136-48bd-929d-fd8112da3f12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/KotlinCases/ArraysLengthKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/KotlinCases/ArraysMaxAndMinKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/KotlinCases/ArraysReverseKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArraysLength.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArraysMaxAndMin.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArraysReverse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraySearch.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysDuplicates.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysEquals.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysExtend.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysFill.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysMerge.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysRemove.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysRemoveAll.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysRetainAll.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysUnionSet.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KotlinCases.md" beforeDir="false" afterPath="$PROJECT_DIR$/KotlinCases.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/ArraysInsertKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/ArraysInsertKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/META-INF/KotlinCases.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/META-INF/KotlinCases.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArraysInsert.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArraysInsert.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,37 +39,37 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="kt" value="26" />
+          <entry key="kt" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="Kotlin" value="26" />
+          <entry key="Kotlin" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="kt" value="3228" />
-          <entry key="md" value="1866" />
+          <entry key="kt" value="5077" />
+          <entry key="md" value="2806" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Kotlin" value="3228" />
-          <entry key="Markdown" value="1866" />
+          <entry key="Kotlin" value="5077" />
+          <entry key="Markdown" value="2806" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/KotlinCases.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="455">
-                <caret line="241" lean-forward="true" selection-start-line="241" selection-end-line="241" />
+              <first_editor relative-caret-position="519">
+                <caret line="367" lean-forward="true" selection-start-line="367" selection-end-line="367" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -73,29 +78,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ArraysMaxAndMin.kt">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ArraysUnionSet.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            <state relative-caret-position="150">
+              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ArraysReverse.kt">
+        <entry file="file://$PROJECT_DIR$/src/ArraysEquals.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ArraysInsert.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="150">
+              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -127,11 +123,21 @@
         <option value="$PROJECT_DIR$/src/StringFormat.kt" />
         <option value="$PROJECT_DIR$/src/StringAppend.kt" />
         <option value="$PROJECT_DIR$/src/ArraysSortAndSearch.kt" />
-        <option value="$PROJECT_DIR$/src/ArraysInsert.kt" />
         <option value="$PROJECT_DIR$/src/ArraysLength.kt" />
         <option value="$PROJECT_DIR$/src/ArraysReverse.kt" />
         <option value="$PROJECT_DIR$/src/ArraysMaxAndMin.kt" />
+        <option value="$PROJECT_DIR$/src/ArraysMerge.kt" />
+        <option value="$PROJECT_DIR$/src/ArraysExtend.kt" />
+        <option value="$PROJECT_DIR$/src/ArraysFill.kt" />
+        <option value="$PROJECT_DIR$/src/ArraysDuplicates.kt" />
+        <option value="$PROJECT_DIR$/src/ArraysInsert.kt" />
+        <option value="$PROJECT_DIR$/src/ArraysRemove.kt" />
+        <option value="$PROJECT_DIR$/src/ArraysRemoveAll.kt" />
+        <option value="$PROJECT_DIR$/src/ArraysRetainAll.kt" />
+        <option value="$PROJECT_DIR$/src/ArraySearch.kt" />
+        <option value="$PROJECT_DIR$/src/ArraysEquals.kt" />
         <option value="$PROJECT_DIR$/KotlinCases.md" />
+        <option value="$PROJECT_DIR$/src/ArraysUnionSet.kt" />
       </list>
     </option>
   </component>
@@ -171,7 +177,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540202362763" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540266792229" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -189,86 +195,86 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.ArraysMaxAndMinKt">
-    <configuration name="ArraysInsertKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.ArraysUnionSetKt">
+    <configuration name="ArraySearchKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="KotlinCases" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ArraysInsertKt" />
+      <option name="MAIN_CLASS_NAME" value="ArraySearchKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArraysLengthKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="ArraysEqualsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="KotlinCases" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ArraysLengthKt" />
+      <option name="MAIN_CLASS_NAME" value="ArraysEqualsKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArraysMaxAndMinKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="ArraysRemoveAllKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="KotlinCases" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ArraysMaxAndMinKt" />
+      <option name="MAIN_CLASS_NAME" value="ArraysRemoveAllKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArraysReverseKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="ArraysRetainAllKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="KotlinCases" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ArraysReverseKt" />
+      <option name="MAIN_CLASS_NAME" value="ArraysRetainAllKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArraysSortAndSearchKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="ArraysUnionSetKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="KotlinCases" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ArraysSortAndSearchKt" />
+      <option name="MAIN_CLASS_NAME" value="ArraysUnionSetKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.ArraysSortAndSearchKt" />
-      <item itemvalue="Kotlin.ArraysInsertKt" />
-      <item itemvalue="Kotlin.ArraysLengthKt" />
-      <item itemvalue="Kotlin.ArraysReverseKt" />
-      <item itemvalue="Kotlin.ArraysMaxAndMinKt" />
+      <item itemvalue="Kotlin.ArraysRemoveAllKt" />
+      <item itemvalue="Kotlin.ArraysRetainAllKt" />
+      <item itemvalue="Kotlin.ArraySearchKt" />
+      <item itemvalue="Kotlin.ArraysEqualsKt" />
+      <item itemvalue="Kotlin.ArraysUnionSetKt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.ArraysMaxAndMinKt" />
-        <item itemvalue="Kotlin.ArraysReverseKt" />
-        <item itemvalue="Kotlin.ArraysLengthKt" />
-        <item itemvalue="Kotlin.ArraysInsertKt" />
-        <item itemvalue="Kotlin.ArraysSortAndSearchKt" />
+        <item itemvalue="Kotlin.ArraysUnionSetKt" />
+        <item itemvalue="Kotlin.ArraysEqualsKt" />
+        <item itemvalue="Kotlin.ArraySearchKt" />
+        <item itemvalue="Kotlin.ArraysRetainAllKt" />
+        <item itemvalue="Kotlin.ArraysRemoveAllKt" />
       </list>
     </recent_temporary>
   </component>
@@ -422,17 +428,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArraysSortAndSearch.kt">
+    <entry file="file://$PROJECT_DIR$/src/ArraysMaxAndMin.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArraysInsert.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="100">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -443,22 +442,99 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArraysMaxAndMin.kt">
+    <entry file="file://$PROJECT_DIR$/src/ArraysSortAndSearch.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysExtend.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysMerge.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysFill.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysDuplicates.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysRemove.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysInsert.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysRemoveAll.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysRetainAll.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraySearch.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysEquals.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/KotlinCases.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="455">
-            <caret line="241" lean-forward="true" selection-start-line="241" selection-end-line="241" />
+          <first_editor relative-caret-position="519">
+            <caret line="367" lean-forward="true" selection-start-line="367" selection-end-line="367" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
           </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysUnionSet.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
         </state>
       </provider>
     </entry>
