@@ -201,3 +201,41 @@ public fun printArrayList(arrayList: ArrayList<Any>):Unit{
     }
 }
 ```
+
+### 2.3 数组长度
+* 功能: 获取数组的长度
+* 介绍: 无
+```kotlin
+fun main(args: Array<String>) {
+    var array : Array<Any> = Array<Any>(4,{9})
+    array.set(0,1)
+    array.set(1,"hop")
+    for(i in array){
+        println(i)
+    }
+    println("The length of array is "+array.size)
+}
+```
+
+### 2.4 数组反转
+* 功能: 反转数组
+* 介绍: reverse可以直接将ArrayList反转.
+```kotlin
+fun main(args: Array<String>) {
+    var array = arrayListOf<Any>(1,2,3,4,5)
+    array.reverse()
+    printArrayList(array)//from ArraysInsert.kt
+}
+```
+
+### 2.5 数组极值
+* 功能: 获得数组的极值
+* 介绍: 数组的max和min可以直接获得.
+```kotlin
+fun main(args: Array<String>) {
+    var array = intArrayOf(2,3,1,6,-1,6,99)
+    println("The maximum of array is "+array.max())
+    println("The minimum of array is "+array.min())
+}
+```
+
