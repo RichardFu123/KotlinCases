@@ -4,7 +4,7 @@
 * Kotlin: 1.2.71
 * JDK: 1.8.0_161
 ----
-**注: 本文中实例参考于 [runoobJava实例](http://www.runoob.com/java/java-examples.html)**
+**注: 本文中实例部分参考于 [runoobJava实例](http://www.runoob.com/java/java-examples.html)**
 
 ## 1 字符串
 
@@ -384,5 +384,182 @@ public fun printSet(s:Set<out Any>){
         print(i.toString()+" ")
     }
     println()
+}
+```
+
+## 3 时间
+
+### 格式化时间
+* 功能: 格式化输出时间
+* 介绍: 直接调用java的相关模块即可.
+```kotlin
+import java.text.SimpleDateFormat
+import java.util.*
+
+fun main(args: Array<String>) {
+    val data = Date()
+    val dateFormat = "yyyy-MM-dd HH:mm:ss"
+    val simpleDateFormat = SimpleDateFormat(dateFormat)
+    println(simpleDateFormat.format(data))
+}
+```
+
+## 4 类与对象
+
+### 4.1 创建类 ClassInit
+* 功能: 构建并实例一个类
+* 介绍:
+    * 类的可以有一个主构造函数及一个或多个次构造函数,在类头的是主构造函数(constructor)
+    * 类中可以有多个初始化块(init)
+    * 所有类集成自超类Any(与java的Object不同)
+```kotlin
+class ClassInit constructor(info:String){
+    init{
+        println(info+" in the initializer block 1")
+    }
+    var str1 = "var str1".also(::println)
+    init{
+        println(info+" in the initializer block 2")
+        this.str1 = info
+    }
+    fun printstr1(){
+        println("str1: "+str1)
+    }
+    val str2 = "val str2".also(::println)
+}
+
+fun main(args: Array<String>) {
+    println("Begin")
+    var classInit = ClassInit("New")
+    var classInit2 = ClassInit("New2")
+    classInit.printstr1()
+    classInit2.printstr1()
+}
+```
+
+### 4.2 次构造函数 ClassSecondaryConstructor
+* 功能: 次构造函数
+* 介绍:
+    * 如果既有主构造函数,又有次构造函数,则次构造函数需要委托给主构造函数
+    * 主构造函数中可以直接声明类中的变量(var)
+    * 多个次构造函数可以实现多级调用
+    * 次级构造函数会在所有变量初始化\initBlock调用完后再进行调用
+    * 调用次级函数会先调用委托的部分
+    * 可以指定默认参数值是一件很幸福的事情
+```kotlin
+class ClassSecondaryConstructor constructor(var name:String){
+    init{
+        println("Init block "+name)
+    }
+    var age = 0
+    var father = "father of ${name}".also(::println)
+    constructor(name:String,age:Int):this(name){
+        this.age = age
+        println("First secondary constructor "+name)
+    }
+    constructor(name:String,age:Int = 18,father:String):this(name,age){
+        this.father = father
+        println("Second secondary constructor "+name)
+    }
+    init{
+        println("Init block2 "+name)
+    }
+}
+
+fun main(args: Array<String>) {
+    var a = ClassSecondaryConstructor("Shawn")
+    var b = ClassSecondaryConstructor("XiaoMing",24)
+    var c = ClassSecondaryConstructor("Me",father = "Father")
+}
+```
+
+### 4.3 继承 ClassDerived
+* 功能: 继承父类
+* 介绍:
+    * 如果没有主构造函数,次构造函数不需要委托
+    * 可继承的类,可覆写的方法,属性都要用open修饰
+    * 覆写前要用override声明
+    * 可以用var覆写val,反之不行
+    * 用super同样可以调用父类
+```kotlin
+open class Father{
+    public var age = 18
+    private var name = ""
+    constructor(name: String){
+        this.name = name
+    }
+    open public fun printName(){
+        println(name)
+    }
+    public fun printAge(){
+        println(age)
+    }
+}
+
+class Boy(name:String,age:Int):Father(name){
+    init{
+        this.age = age
+    }
+    override fun printName(){
+        super.printName()
+        println("from Boy")
+    }
+
+}
+
+fun main(args: Array<String>) {
+    var father = Father("Father")
+    var boy = Boy("Boy",5)
+    father.printName()
+    father.printAge()
+    boy.printName()
+    boy.printAge()
+}
+```
+
+### 4.4 抽象与接口 ClassAbstractAndInterface
+* 功能: 继承抽象类,满足接口
+* 介绍:
+    * 抽象与接口的规则老一套
+    * super<父类>可以实现对多个父亲的选择
+```kotlin
+abstract class ClassAbstract(){
+    var i: Int? = null
+    abstract fun a()
+    abstract fun b()
+}
+interface ClassAbstractA{
+    fun a(i: Int):Int{
+        return i
+    }
+}
+interface ClassAbstractB{
+    fun b(s: String):String{
+        return s
+    }
+}
+class ClassAbstractClass:ClassAbstract(),ClassAbstractA,ClassAbstractB{
+    override fun a(){
+        println("a")
+    }
+    override fun a(i:Int):Int{
+        println("a"+i)
+        return i+1
+    }
+    override fun b(){
+        println("b")
+    }
+    override fun b(s: String): String {
+        println("b"+s)
+        return super<ClassAbstractB>.b(s)
+    }
+}
+
+fun main(args: Array<String>) {
+    var abstract = ClassAbstractClass()
+    abstract.a()
+    abstract.a(1)
+    abstract.b()
+    abstract.b("test")
 }
 ```
