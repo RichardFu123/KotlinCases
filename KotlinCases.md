@@ -563,3 +563,95 @@ fun main(args: Array<String>) {
     abstract.b("test")
 }
 ```
+
+## 5 流程控制
+
+### 5.1 分支流程 ControlSwitch
+* 功能: 用if/when来控制程序流程
+* 介绍:
+    * if-else如常
+    * when语句取代了switch
+    * when语句不会依次执行,所以不需要额外的break
+```kotlin
+fun main(args: Array<String>) {
+    var a = 1
+    var b = 2
+    if(a>b)
+    {
+        println(a)
+    }
+    else
+    {
+        println(b)
+    }
+    var max = if(a>b) a else b
+    println(max)
+    fun max(a:Int,b:Int) = when(a>b){
+        true -> a
+        false -> b
+        else -> null
+    }
+    fun isString(a:Any) = when(a){
+        is String -> println("That is a string")
+        !is String -> println("That is not a string")
+        else -> println("I have no idea")
+    }
+    println(max(233,666))
+    isString("Fish!")
+}
+```
+
+### 5.2 循环 Control
+* 功能: while循环与java相同,主要介绍for循环
+* 介绍:
+    * 0..5 包括5
+    * 0 until 5 不包括5
+    * 5 downTo 0 包括5和0
+```kotlin
+fun main(args: Array<String>) {
+    var array = intArrayOf(1,2,3,4,5,6,7)
+    for(i in array) print(i)
+    println()
+    for(i:Int in array) print(i)
+    println()
+    for(i in 0..5) print(i)
+    println()
+    for(i in 0 until 5) print(i)
+    println()
+    for(i in 0 until 5 step 2)print(i)
+    println()
+    for(i in 5 downTo 0)print(i)
+    println()
+    for(i in 5 downTo 0 step 2) print(i)
+}
+```
+
+### 5.3 转跳 ControlJump
+* 功能: break以及continue
+* 介绍:
+    * break未指定标签,则终止最近一个循环
+    * continue未指定标签,则跳过最近一个循环的当次循环
+    * 用标签可为以上两个命令指定控制的循环
+    * 标签也同样可以用于return,最常见于直接从lambda返回到函数主体
+```kotlin
+fun main(args: Array<String>) {
+    loop@ for(i in 0..5){
+        loop2@ for(j in 6..10){
+            println(""+i+" and "+j)
+            if (i == 5) {
+                println("loop break")
+                break@loop
+            }
+            if (j == 9) {
+                println("loop2 continue")
+                continue@loop2
+            }
+            if ((i==0) and (j==7)) {
+                println("loop continue")
+                continue@loop
+            }
+
+        }
+    }
+}
+```
