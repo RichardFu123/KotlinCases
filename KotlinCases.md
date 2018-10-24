@@ -4,7 +4,11 @@
 * Kotlin: 1.2.71
 * JDK: 1.8.0_161
 ----
+**强烈推荐[Kotlin官方文档](https://www.kotlincn.net/docs/reference/)**
+**代码见[github](https://github.com/RichardFu123/KotlinCases)**
 **注: 本文中实例部分参考于 [runoobJava实例](http://www.runoob.com/java/java-examples.html)**
+
+----
 
 ## 1 字符串
 
@@ -564,6 +568,135 @@ fun main(args: Array<String>) {
 }
 ```
 
+### 4.5 getter和setter ClassGetterAndSetter
+* 功能: 重写类属性的set和get
+* 介绍:
+    * 通过重写这两个访问器,可以更灵活地实现功能
+    * val只支持get重写
+```kotlin
+fun main(args: Array<String>) {
+    var get = GetAndSet()
+    for(i in 0..5){
+        get.answer = i
+        println(get.answer)
+    }
+}
+
+class GetAndSet(){
+    var data = 0
+    var answer : Int
+        get() {
+            if(data!=0)return 42
+            else return data
+        }
+        set(value) {data = value%2}
+    }
+```
+
+### 4.6 幕后字段 ClassField
+* 功能: 用Field访问属性自身
+* 介绍:
+    * 由于在类属性的set和get内访问自身会进行递归最后导致栈溢出,所以kotlin提供了yield标识符.
+    * yield不需要声明,在变量初始化后自动提供.
+```kotlin
+fun main(args: Array<String>) {
+    var get = ClassField()
+    for(i in 0..5){
+        get.answer = i
+        println(get.answer)
+    }
+}
+
+class ClassField(){
+    var answer : Int = 0
+        set(value){
+            field = value-1
+        }
+        get() {
+            if(field==0)return 42
+            else return field
+        }
+}
+```
+
+### 4.7 扩展函数 ClassExtend
+* 功能: 使用扩展方法对类进行扩展
+* 介绍:
+    * 可以通过在类外定义函数来扩展类本身.
+    * 扩展的函数不能访问类的私有属性
+```kotlin
+class ClassExtend{
+    var str: String?= null
+}
+fun ClassExtend.printStr(){
+    println(str)
+}
+fun ClassExtend.setStr(str:String){
+    this.str = str
+}
+
+fun main(args: Array<String>) {
+    var CE = ClassExtend()
+    CE.printStr()
+    CE.setStr("input something")
+    CE.printStr()
+}
+```
+
+### 4.8 伴生对象(静态成员) ClassCompanion
+* 功能: 通过伴生对象来实现静态方法
+* 介绍:
+    * Kotlin中没有静态成员声明,但是有伴生方法可以实现
+    * 虽然看起来像静态成员,但是伴生方法仍然是真是的实例成员,并且可以实现接口
+```kotlin
+class ClassCompanion{
+    companion object {
+        fun printHello(){
+            print("Hello!")
+        }
+        val Dio: String = "Dio"
+    }
+}
+
+fun main(args: Array<String>) {
+    ClassCompanion.printHello()
+    print(" "+ClassCompanion.Dio)
+}
+```
+
+### 4.9 枚举类 ClassEnum
+* 功能: 使用枚举类
+* 介绍: 与Java中的枚举类区别不大
+```kotlin
+enum class ClassEnum(val rgb:Int,var stuff:String){
+    RED(0xFF0000,"apple"){
+        override fun print() {
+            println(this.stuff)
+        }
+    },
+    GREEN(0x00FF00,"Your hat"){
+        override fun print() {
+            println("That is ok "+this.stuff)
+        }
+    },
+    BLUE(0x0000FF,"Sky"){
+        override fun print() {
+            println("I need some towers")
+        }
+    };
+    abstract fun print()
+}
+
+fun main(args: Array<String>) {
+    ClassEnum.RED.print()
+    ClassEnum.GREEN.print()
+    println(ClassEnum.BLUE.rgb)
+    println(ClassEnum.BLUE.stuff)
+    ClassEnum.BLUE.stuff = "Sea"
+    println(ClassEnum.BLUE.stuff)
+}
+```
+
 ## 5 流程控制
 
 ### 5.1 分支流程 ControlSwitch
@@ -601,7 +734,7 @@ fun main(args: Array<String>) {
 }
 ```
 
-### 5.2 循环 Control
+### 5.2 循环 ControlLoop
 * 功能: while循环与java相同,主要介绍for循环
 * 介绍:
     * 0..5 包括5
@@ -655,3 +788,33 @@ fun main(args: Array<String>) {
     }
 }
 ```
+
+## 6 异常 Exception
+* 功能: Kotlin中的异常处理与Java相似
+* 介绍:
+    * 用try-catch来捕捉异常
+    * 可以用多个catch针对多个异常
+    * 接finally来运行无论是否发生异常均可执行的程序
+```kotlin
+import java.lang.Exception
+
+fun main(args: Array<String>) {
+    var list = intArrayOf(0)
+    for (i in 0..1){
+        try {
+            list[i] = 1 / i
+            println(list[i])
+        }catch(e: ArithmeticException){
+            e.printStackTrace()
+        }catch(e: ArrayIndexOutOfBoundsException){
+            e.printStackTrace()
+        }catch(e: Exception){
+            e.printStackTrace()
+        }finally {
+            println("Finally "+i)
+        }
+    }
+
+}
+```
+
