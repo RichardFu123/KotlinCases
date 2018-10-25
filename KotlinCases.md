@@ -789,7 +789,7 @@ fun main(args: Array<String>) {
 }
 ```
 
-## 6 异常 Exception
+## 6 8 异常 Exception
 * 功能: Kotlin中的异常处理与Java相似
 * 介绍:
     * 用try-catch来捕捉异常
@@ -818,3 +818,57 @@ fun main(args: Array<String>) {
 }
 ```
 
+## PLUS 小技巧
+
+### P.1 可边长参数 TipsVarargs
+* 功能: 用可变长参数来获取不定个数的参数
+* 介绍: 无
+```kotlin
+fun tipsVarargs(vararg strings:String){
+    for(s in strings){
+        println(s)
+    }
+    for (i in 0 until strings.size){
+        print(strings[i]+" ")
+    }
+}
+
+fun main(args: Array<String>) {
+    tipsVarargs("banana","Banana","banana","banana")
+}
+```
+
+### P.2 常量Constant
+* 功能: 试用常量
+* 介绍:
+    * val定义运行期常量(普通常量)
+    * const val定义编译期常量
+    * 编译期常量不能是可变对象
+    * 用by lazy可以将普通常量的初始化推迟到第一次调用的时候
+```kotlin
+fun main(args: Array<String>) {
+    var fruit = "banana"
+    val Fruit by lazy { fruit }
+    println(fruit)
+    fruit = "Banana"
+    println(Fruit)
+}
+const val TipsConst = "Only primitives and String are allowed"
+```
+
+### P.3 获取class TipsGetClass
+* 功能: 获得对象的class
+* 介绍:
+    * 用::class.java可以获取Java的class实例
+    * 只用::class获取的是kotlin的class实例
+    * 用实例的.javaClass也可以获取到class实例
+```kotlin
+class TipsGetClass
+
+fun main(args: Array<String>) {
+    val tipsGetClass = TipsGetClass()
+    val cls = TipsGetClass::class.java
+    val kls = TipsGetClass::class
+    val tcls = tipsGetClass.javaClass
+}
+```
