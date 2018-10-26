@@ -838,7 +838,7 @@ fun main(args: Array<String>) {
 }
 ```
 
-### P.2 常量Constant
+### P.2 常量 Constant
 * 功能: 试用常量
 * 介绍:
     * val定义运行期常量(普通常量)
@@ -870,5 +870,35 @@ fun main(args: Array<String>) {
     val cls = TipsGetClass::class.java
     val kls = TipsGetClass::class
     val tcls = tipsGetClass.javaClass
+}
+```
+
+### P.4 引用相等 TipsRefEqual
+* 功能: 比较传统相等(\=\=)和引用相等(\=\=\=)
+* 介绍:
+    * 传统的相等很传统
+    * 引用相等判断两个对象的引用是否是同一个
+```kotlin
+fun main(args: Array<String>) {
+    var a = TipsRefEqual("You")
+    var b = a
+    var c = a
+    var d = TipsRefEqual("You")
+    println(a==b)
+    println(b==c)
+    println(a==d)
+    println(a===b)
+    println(b===c)
+    println(a===d)
+    println(b===d)
+}
+
+class TipsRefEqual(var name:String){
+    override fun equals(other: Any?): Boolean {
+        return this.name==other.toString()
+    }
+    override fun toString(): String {
+        return this.name
+    }
 }
 ```
