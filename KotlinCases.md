@@ -789,7 +789,7 @@ fun main(args: Array<String>) {
 }
 ```
 
-## 6 8 异常 Exception
+## 6 异常 Exception
 * 功能: Kotlin中的异常处理与Java相似
 * 介绍:
     * 用try-catch来捕捉异常
@@ -815,6 +815,195 @@ fun main(args: Array<String>) {
         }
     }
 
+}
+```
+
+## 7 运算符重载
+
+### 7.1 一元运算符 OperatorOverloadUnary
+* 功能: 重载类的一元运算符
+* 介绍:
+    * 类的运算符可以重载
+    * 重载后的返回值与运算符原定义无关
+    * 重载运算符要标注operator
+
+```kotlin
+class OperatorOverloadUnary(var i:Int){
+    operator fun unaryPlus():Int{
+        println("UnaryPlus: $i")
+        return i
+    }
+    operator fun unaryMinus():Int{
+        println("UnaryMinus: $i")
+        return i-1
+    }
+    operator fun not():Int{
+        println("not: $i")
+        return i-2
+    }
+
+}
+
+fun main(args: Array<String>) {
+    val i = OperatorOverloadUnary(9)
+    println(+i)
+    println(-i)
+    println(!i)
+}
+```
+
+### 7.2 自运算 OperatorOverloadIncAndDec
+* 功能: 重载自运算符
+* 介绍:
+    * 自运算如i++,i--的实现过程是:获取i初始值,获取i.inc()或i.dec()并赋给i,返回i初始值.
+    * 自运算++i,--i的实现过程相似,只是返回的是i.inc()或i.dec()的值
+```kotlin
+class OperatorOverloadIncAndDec(var i:Int){
+    init {
+        println("Here is $i")
+    }
+
+    override fun toString(): String {
+        return "toString: $i"
+    }
+    operator fun inc():OperatorOverloadIncAndDec{
+        println("INC $i")
+        return OperatorOverloadIncAndDec(i+10)
+    }
+    operator fun dec():OperatorOverloadIncAndDec{
+        println("DEC $i")
+        return OperatorOverloadIncAndDec(i-10)
+    }
+}
+
+fun main(args: Array<String>) {
+    var i = OperatorOverloadIncAndDec(42)
+    i++
+    i--
+}
+```
+
+### 7.3 二元运算 OperatorOverloadBinary
+* 功能: 重载二元运算符
+* 介绍: 二元运算符要求有一个参数传入,类型不限
+```kotlin
+class OperatorOverloadBinary(var i: Int){
+    operator fun plus(j:Int){
+        println("plus $i and $j")
+    }
+    operator fun minus(s:String){
+        println("minus $i and $s")
+    }
+    operator fun times(j:Int){
+        println("times $i and $j")
+    }
+    operator fun div(j:Int){
+        println("div $i and$j")
+    }
+    operator fun rem(j:Int){
+        println("rem $i and $j")
+    }
+    operator fun rangeTo(s:String){
+        println("rangeTo $i and $s")
+    }
+}
+
+fun main(args: Array<String>) {
+    var i = OperatorOverloadBinary(9527)
+    i+1
+    i-"Banana"
+    i*3
+    i/4
+    i%5
+    i.."Banana!"
+}
+```
+
+### 7.4 赋值运算 OperatorOverloadAssign
+* 功能: 重载赋值运算符
+* 介绍: 如果相应函数不可用,则会尝试去调用二元运算
+```kotlin
+class OperatorOverloadAssign(var i: Int){
+    operator fun plusAssign(s:String){
+        println("plusAssign $i and $s")
+    }
+    operator fun minusAssign(i:Int){
+        println("minusAssign ${this.i} and $i")
+    }
+    operator fun timesAssign(s:String){
+        println("timesAssign $i and $s")
+    }
+    operator fun divAssign(i:Int){
+        println("divAssign ${this.i} and $i")
+    }
+    operator fun remAssign(s:String){
+        println("remAssign $i and $s")
+    }
+}
+
+fun main(args: Array<String>) {
+    var i = OperatorOverloadAssign(666)
+    i+="banana"
+    i-=2
+    i*="Banana"
+    i/=3
+    i%="Banana!"
+}
+```
+
+### 7.5 调用与访问 OperatorOverloadInvoke
+* 功能: 重载调用与访问
+* 介绍: 无
+```kotlin
+class OperatorOverloadInvoke(var i: Int){
+    operator fun get(i:Int){
+        println("get ${this.i} and $i")
+    }
+    operator fun set(i:Any,j:Any){
+        println("set ${this.i} $i and $j")
+    }
+    operator fun invoke(i:Any){
+        println("invoke ${this.i} and $i")
+    }
+}
+
+fun main(args: Array<String>) {
+    var i = OperatorOverloadInvoke(233)
+    i[12]
+    i["banana"] = "Banana"
+    i("Banana!")
+}
+```
+
+### 7.6 逻辑运算 OperatorOverloadLogic
+* 功能: 重载逻辑运算符
+* 介绍:
+    * !in和!=是in和==与!的复合运算
+    * 所有的大小比较其实都是compareTo()与0的比较
+```kotlin
+class OperatorOverloadLogic(var i: Int){
+    operator fun contains(i:Any):Boolean{
+        println("contains ${this.i} and $i")
+        return false
+    }
+    override fun equals(other: Any?): Boolean {
+        println("equals $i and $other")
+        return true
+    }
+    operator fun compareTo(i:Any):Int{
+        println("compareTo ${this.i} and $i")
+        return 42
+    }
+}
+
+fun main(args: Array<String>) {
+    var i = OperatorOverloadLogic(450)
+    println("banana" in i)
+    println(i == OperatorOverloadLogic(12))
+    println(i>1)
+    println(i<2)
+    println(i>=3)
+    println(i<="Banana")
 }
 ```
 
