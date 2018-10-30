@@ -1009,7 +1009,7 @@ fun main(args: Array<String>) {
 
 ## PLUS 小技巧
 
-### P.1 可边长参数 TipsVarargs
+### P.1 可变长参数 TipsVarargs
 * 功能: 用可变长参数来获取不定个数的参数
 * 介绍: 无
 ```kotlin
@@ -1089,5 +1089,35 @@ class TipsRefEqual(var name:String){
     override fun toString(): String {
         return this.name
     }
+}
+```
+
+### P.5 中缀表示法 TipsInfix
+* 功能: 用infix修饰的函数可以使用中缀表示法调用
+* 介绍:
+    * 被修饰的函数必须是成员函数或者扩展函数
+    * 被修饰的函数只能有一个参数
+    * 这个参数不能是可变长参数,也不能有默认值
+    * 使用中缀表示法a Bala b等同于a.Bala(b)
+    * 使用中缀表示法必须指定接收者,设banana(String)是x类的infix函数:
+        * 在x类内直接调用banana "Banana"是错误的
+        * x类内可以调用this banana "Banana"
+        * 或者调用banana("Banana")
+    * 中缀表示法的优先级低于算数运算符,类型转换,rangeTo,但是高于逻辑运算符
+    * 搞不懂优先级就直接用括号括起来.
+```kotlin
+class TipsInfix(var i: Int){
+    infix fun banana(i:Int){
+        println("infix banana ${this.i} and $i")
+    }
+}
+infix fun TipsInfix.poi(i:Int){
+    println("infix poi ${this.i} and $i")
+}
+
+fun main(args: Array<String>) {
+    var i = TipsInfix(12)
+    i banana 450
+    i poi 12
 }
 ```
