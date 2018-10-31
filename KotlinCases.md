@@ -697,6 +697,65 @@ fun main(args: Array<String>) {
 }
 ```
 
+### 4.10 数据类 ClassData
+* 功能: 用数据类来记录数据
+* 介绍:
+    * 数据类被设计来储存数据
+    * 数据类的主构造函数至少要有一个参数
+    * 主构造函数的多有参数必须有var或val修饰
+    * 如果不特别实现,编译器会自动推导equals(),hashCode()和toString()
+    * 用copy()可以快速实现同一份数据的复制\微调
+```kotlin
+data class ClassData(var aString: String,val bString: String){
+    init {
+        var sString = bString
+    }
+    fun print(){
+        println("Print in ${this.javaClass}")
+    }
+}
+
+fun main(args: Array<String>) {
+    var banana = ClassData("aBanana","bBanana")
+    var Banana = banana.copy(bString = "cBanana")
+    println(banana)
+    banana.print()
+    println(Banana)
+    Banana.print()
+}
+```
+
+### 4.11 密封类 ClassSealed
+* 功能: 使用密封类来让程序更顺眼
+* 介绍:
+    * 密封类自身是抽象的,不能直接实例化
+    * 其构造函数为private类型的,且不允许有其他类型的构造函数
+    * 密封类实现了一个有限的类集合
+    * 密封类与when的结合非常严谨
+    * when中使用密封类如果覆盖了全部的情况,则不需要定义else子句
+    * when中使用了密封类,如果指明验证了其类型,则可以直接调用相应的方法.
+```kotlin
+sealed class ClassSealed
+data class SealedA(var seal:String):ClassSealed()
+class SealedB:ClassSealed(){
+    fun print(){
+        println("I am a little seal.")
+    }
+}
+object SealedC:ClassSealed()
+
+fun main(args: Array<String>) {
+    var list = listOf<ClassSealed>(SealedB(),SealedA("I am here for basking."),SealedC)
+    for (seal:ClassSealed in list){
+        when(seal){
+            is SealedA -> println(seal.seal)
+            is SealedB -> seal.print()
+            is SealedC -> println("And disappear again.")
+        }
+    }
+}
+```
+
 ## 5 流程控制
 
 ### 5.1 分支流程 ControlSwitch
