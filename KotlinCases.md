@@ -597,7 +597,7 @@ class GetAndSet(){
 * 功能: 用Field访问属性自身
 * 介绍:
     * 由于在类属性的set和get内访问自身会进行递归最后导致栈溢出,所以kotlin提供了yield标识符.
-    * yield不需要声明,在变量初始化后自动提供.
+    * field不需要声明,在变量初始化后自动提供.
 ```kotlin
 fun main(args: Array<String>) {
     var get = ClassField()
@@ -1210,5 +1210,28 @@ fun main(args: Array<String>) {
     var i = TipsInfix(12)
     i banana 450
     i poi 12
+}
+```
+
+### P.6 类型别名 TipsTypealias
+* 功能: 给类起别名
+* 介绍:
+    * typealias能够给类取别名.
+    * 实际使用时类型仍是原类型,不会创造新的类型.
+    * 注意: 无论如何,在起别名的时候一定要写好注释,不然忘了就很容易食翔.
+```kotlin
+typealias StrArrayList = ArrayList<String>
+typealias SAL = StrArrayList
+
+
+fun main(args: Array<String>) {
+    var sal = SAL()
+    sal.add("banana")
+    sal.add("Banana")
+    var strArrayList = StrArrayList()
+    strArrayList.add("str")
+    strArrayList.add("Str")
+    println("The class of sal: "+sal.javaClass)
+    println("The class of strArrayList: "+strArrayList.javaClass)
 }
 ```

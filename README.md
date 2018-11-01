@@ -4,16 +4,19 @@
 * 详见KotlinCases.md
 
 ---
-October 24, 2018 : update_ClassCases
 
-October 25, 2018 : update_TipsCases
+November 01, 2018 : update_Typealias
 
-October 26, 2018 : update_TipsRefEqual
-
-October 29, 2018 : update_OperatorOverload
-
-October 30, 2018 : update_TipsInfix
+November 01, 2018 : update_KDoc
 
 October 31, 2018 : update_DataClassAndSealedClass
 
-November 01, 2018 : update_KDoc
+October 30, 2018 : update_TipsInfix
+
+October 29, 2018 : update_OperatorOverload
+
+October 26, 2018 : update_TipsRefEqual
+
+October 25, 2018 : update_TipsCases
+
+October 24, 2018 : update_ClassCases
