@@ -5,19 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddb5e96b-2136-48bd-929d-fd8112da3f12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/KotlinCases/ClassData.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/KotlinCases/ClassDataKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/KotlinCases/ClassSealed.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/KotlinCases/ClassSealedKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/KotlinCases/SealedA.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/KotlinCases/SealedB.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/KotlinCases/SealedC.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClassData.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClassSealed.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KDoc.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KotlinCases.md" beforeDir="false" afterPath="$PROJECT_DIR$/KotlinCases.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/META-INF/KotlinCases.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/META-INF/KotlinCases.kotlin_module" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,27 +39,27 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="kt" value="72" />
+          <entry key="kt" value="73" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="Kotlin" value="72" />
+          <entry key="Kotlin" value="73" />
           <entry key="Markdown" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="kt" value="12513" />
-          <entry key="md" value="7648" />
+          <entry key="kt" value="12899" />
+          <entry key="md" value="7925" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Kotlin" value="12513" />
-          <entry key="Markdown" value="7648" />
+          <entry key="Kotlin" value="12899" />
+          <entry key="Markdown" value="7925" />
         </counts>
       </usages-collector>
     </session>
@@ -79,8 +70,8 @@
         <entry file="file://$PROJECT_DIR$/KotlinCases.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="405">
-                <caret line="1181" column="3" lean-forward="true" selection-start-line="1181" selection-start-column="3" selection-end-line="1181" selection-end-column="3" />
+              <first_editor relative-caret-position="121">
+                <caret line="1072" column="8" selection-start-line="1072" selection-start-column="8" selection-end-line="1072" selection-end-column="8" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -90,9 +81,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/KDoc.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ClassSealed.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
+            <state relative-caret-position="421">
               <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
             </state>
           </provider>
@@ -102,8 +102,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="400">
-                <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+              <first_editor relative-caret-position="450">
+                <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -127,7 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/StringLastIndexOf.kt" />
         <option value="$PROJECT_DIR$/src/StringReverse.kt" />
         <option value="$PROJECT_DIR$/src/StringUpperAndLower.kt" />
         <option value="$PROJECT_DIR$/src/StringRegionMatch.kt" />
@@ -176,6 +175,7 @@
         <option value="$PROJECT_DIR$/src/TipsInfix.kt" />
         <option value="$PROJECT_DIR$/src/ClassData.kt" />
         <option value="$PROJECT_DIR$/src/ClassSealed.kt" />
+        <option value="$PROJECT_DIR$/src/KDoc.kt" />
         <option value="$PROJECT_DIR$/KotlinCases.md" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
@@ -223,7 +223,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540967324107" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541038281795" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -381,13 +381,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/StringUpperAndLower.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/StringRegionMatch.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -711,11 +704,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClassSealed.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KDoc.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/KotlinCases.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="405">
-            <caret line="1181" column="3" lean-forward="true" selection-start-line="1181" selection-start-column="3" selection-end-line="1181" selection-end-column="3" />
+          <first_editor relative-caret-position="121">
+            <caret line="1072" column="8" selection-start-line="1072" selection-start-column="8" selection-end-line="1072" selection-end-column="8" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
@@ -723,18 +730,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClassSealed.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="400">
-            <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+          <first_editor relative-caret-position="450">
+            <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />

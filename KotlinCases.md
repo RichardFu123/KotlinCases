@@ -1066,6 +1066,38 @@ fun main(args: Array<String>) {
 }
 ```
 
+## 8 代码文档 KDoc
+* 功能: 编写Kotlin代码文档
+* 介绍:
+    * Kotlin的代码文档KDoc和java的javaDoc区别不大.
+    * 支持markdown的语法,但是现在md除了基础语法,高级功能的语法并不统一.
+    * 所以并不推荐用特别炫酷的md语法去写文档,实用就可以了.
+    * 生成文档还需要依赖[dokka](https://github.com/Kotlin/dokka)
+
+```kotlin
+/**
+ * This is a KDoc Demo
+ * *Here* you can write doc in a markdown way.
+ *
+ * @param  KDoc a param of class KDoc
+ * @author Shawn
+ */
+
+class KDoc(var KDoc:String){
+    /**
+     * @property varA a property of [KDoc]
+     */
+    var varA = 1
+    fun funA(paramA:String):String{
+        /**
+         * @param paramA a param of funA
+         * @return return the paramA
+         */
+        return paramA
+    }
+}
+```
+
 ## PLUS 小技巧
 
 ### P.1 可变长参数 TipsVarargs

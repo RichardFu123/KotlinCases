@@ -15,3 +15,5 @@ October 29, 2018 : update_OperatorOverload
 October 30, 2018 : update_TipsInfix
 
 October 31, 2018 : update_DataClassAndSealedClass
+
+November 01, 2018 : update_KDoc
