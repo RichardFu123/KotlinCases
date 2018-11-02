@@ -1235,3 +1235,35 @@ fun main(args: Array<String>) {
     println("The class of strArrayList: "+strArrayList.javaClass)
 }
 ```
+
+### P.7 关键字this TipsThis
+* 功能: 用this指代类
+* 介绍:
+    * 单用this可以指代当前位置所在的类
+    * 在嵌套类时指代最近一层的嵌套类
+    * 扩展函数中的this指代被扩展的类
+    * this后面也可以通过加标签来指明指代的类
+```kotlin
+class Outside{
+    var inside = Inside()
+    inner class Inside{
+        fun function(){
+            var outside = this@Outside
+            var inside = this@Inside
+            var func = this
+            println(outside.javaClass)
+            println(inside.javaClass)
+            println(func.javaClass)
+        }
+    }
+}
+fun Outside.func(){
+    println(this.javaClass)
+}
+
+fun main(args: Array<String>) {
+    var This = Outside()
+    This.Inside().function()
+    This.func()
+}
+```
