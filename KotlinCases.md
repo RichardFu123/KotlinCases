@@ -1098,6 +1098,41 @@ class KDoc(var KDoc:String){
 }
 ```
 
+## 9 并发
+
+### 9.1 创建新线程 ThreadNew
+* 功能: 创建新线程
+* 介绍: 同java
+```kotlin
+class ThreadNew : Thread(){
+    override fun run(){
+        super.run()
+        Thread.sleep(5000)
+        println("Hello")
+    }
+}
+
+fun main(args: Array<String>) {
+    val mThread = ThreadNew()
+    mThread.run()
+}
+```
+
+### 9.2 实现runnable接口 ThreadRunnable
+* 功能: 通过runnable接口来创建新线程
+* 介绍: 同java
+```kotlin
+fun main(args: Array<String>) {
+    val mRunnable = Runnable {
+        run {
+            Thread.sleep(3000)
+            println("Hello")
+        }
+    }
+    Thread(mRunnable).start()
+}
+```
+
 ## PLUS 小技巧
 
 ### P.1 可变长参数 TipsVarargs

@@ -5,9 +5,104 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddb5e96b-2136-48bd-929d-fd8112da3f12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TipsThis.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreadNew.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreadRunnable.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KotlinCases.md" beforeDir="false" afterPath="$PROJECT_DIR$/KotlinCases.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/ArraySearchKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/ArraySearchKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/ArraysDuplicatesKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/ArraysDuplicatesKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/ArraysEqualsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/ArraysEqualsKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/ArraysExtendKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/ArraysExtendKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/ArraysFillKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/ArraysFillKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/ArraysInsertKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/ArraysInsertKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/ArraysLengthKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/ArraysLengthKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/ArraysMaxAndMinKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/ArraysMaxAndMinKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/ArraysMergeKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/ArraysMergeKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/ArraysRemoveAllKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/ArraysRemoveAllKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/ArraysRemoveKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/ArraysRemoveKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/ArraysRetainAllKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/ArraysRetainAllKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/ArraysReverseKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/ArraysReverseKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/ArraysSortAndSearchKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/ArraysSortAndSearchKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/ArraysUnionSetKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/ArraysUnionSetKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/Boy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/Boy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/ClassAbstract.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/ClassAbstract.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/ClassAbstractA$DefaultImpls.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/ClassAbstractA$DefaultImpls.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/ClassAbstractA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/ClassAbstractA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/ClassAbstractAndInterfaceKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/ClassAbstractAndInterfaceKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/ClassAbstractB$DefaultImpls.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/ClassAbstractB$DefaultImpls.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/ClassAbstractB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/ClassAbstractB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/ClassAbstractClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/ClassAbstractClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/ClassCompanion$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/ClassCompanion$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/ClassCompanion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/ClassCompanion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/ClassCompanionKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/ClassCompanionKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/ClassData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/ClassData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/ClassDataKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/ClassDataKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/ClassDerivedKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/ClassDerivedKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/ClassEnum$BLUE.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/ClassEnum$BLUE.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/ClassEnum$GREEN.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/ClassEnum$GREEN.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/ClassEnum$RED.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/ClassEnum$RED.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/ClassEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/ClassEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/ClassEnumKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/ClassEnumKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/ClassExtend.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/ClassExtend.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/ClassExtendKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/ClassExtendKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/ClassField.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/ClassField.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/ClassFieldKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/ClassFieldKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/ClassGetterAndSetterKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/ClassGetterAndSetterKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/ClassInit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/ClassInit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/ClassInitKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/ClassInitKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/ClassSealed.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/ClassSealed.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/ClassSealedKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/ClassSealedKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/ClassSecondaryConstructor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/ClassSecondaryConstructor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/ClassSecondaryConstructorKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/ClassSecondaryConstructorKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/ControlJumpKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/ControlJumpKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/ControlLoopKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/ControlLoopKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/ControlSwitchKt$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/ControlSwitchKt$main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/ControlSwitchKt$main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/ControlSwitchKt$main$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/ControlSwitchKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/ControlSwitchKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/ExceptionKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/ExceptionKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/Father.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/Father.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/GetAndSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/GetAndSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/META-INF/KotlinCases.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/META-INF/KotlinCases.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/OperatorOverloadAssign.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/OperatorOverloadAssign.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/OperatorOverloadAssignKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/OperatorOverloadAssignKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/OperatorOverloadBinary.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/OperatorOverloadBinary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/OperatorOverloadBinaryKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/OperatorOverloadBinaryKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/OperatorOverloadIncAndDec.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/OperatorOverloadIncAndDec.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/OperatorOverloadIncAndDecKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/OperatorOverloadIncAndDecKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/OperatorOverloadInvoke.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/OperatorOverloadInvoke.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/OperatorOverloadInvokeKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/OperatorOverloadInvokeKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/OperatorOverloadLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/OperatorOverloadLogic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/OperatorOverloadLogicKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/OperatorOverloadLogicKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/OperatorOverloadUnary.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/OperatorOverloadUnary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/OperatorOverloadUnaryKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/OperatorOverloadUnaryKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/Outside$Inside.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/Outside$Inside.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/Outside.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/Outside.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/SealedA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/SealedA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/SealedB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/SealedB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/SealedC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/SealedC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/StringAppendKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/StringAppendKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/StringCompareKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/StringCompareKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/StringFormatKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/StringFormatKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/StringIndexOfKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/StringIndexOfKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/StringLastIndexOfKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/StringLastIndexOfKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/StringRegionMatchKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/StringRegionMatchKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/StringRemoveChrKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/StringRemoveChrKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/StringReverseKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/StringReverseKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/StringSplitKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/StringSplitKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/StringUpperAndLowerKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/StringUpperAndLowerKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/TimeDateFormatKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/TimeDateFormatKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/TipsConstantKt$main$Fruit$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/TipsConstantKt$main$Fruit$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/TipsConstantKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/TipsConstantKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/TipsGetClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/TipsGetClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/TipsGetClassKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/TipsGetClassKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/TipsInfix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/TipsInfix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/TipsInfixKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/TipsInfixKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/TipsRefEqual.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/TipsRefEqual.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/TipsRefEqualKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/TipsRefEqualKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/TipsThisKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/TipsThisKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/TipsTypealiasKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/TipsTypealiasKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCases/TipsVarargsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCases/TipsVarargsKt.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,54 +118,69 @@
       </map>
     </option>
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/KotlinCases$ArraysExtendKt.ic" NAME="ArraysExtendKt Coverage Results" MODIFIED="1541152648643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="238" />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="2090190572">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.open.time.7" value="3" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.7" value="4" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="kt" value="80" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="1" />
+          <entry key="kt" value="86" />
           <entry key="md" value="1" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="Kotlin" value="80" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="1" />
+          <entry key="Kotlin" value="86" />
           <entry key="Markdown" value="1" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="kt" value="13526" />
-          <entry key="md" value="8284" />
+          <entry key="java" value="35" />
+          <entry key="kt" value="13784" />
+          <entry key="md" value="8472" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Kotlin" value="13526" />
-          <entry key="Markdown" value="8284" />
+          <entry key="JAVA" value="35" />
+          <entry key="Kotlin" value="13784" />
+          <entry key="Markdown" value="8472" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/KotlinCases.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="394">
-                <caret line="1244" column="27" selection-start-line="1244" selection-start-column="27" selection-end-line="1244" selection-end-column="27" />
+              <first_editor relative-caret-position="294">
+                <caret line="1133" column="3" lean-forward="true" selection-start-line="1100" selection-end-line="1133" selection-end-column="3" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -80,20 +190,20 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TipsThis.kt">
+        <entry file="file://$PROJECT_DIR$/src/ClassSealed.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+            <state relative-caret-position="450">
+              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="350">
-                <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <first_editor relative-caret-position="150">
+                <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -107,6 +217,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
+        <option value="Gradle Kotlin DSL Build Script" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -117,10 +229,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/StringRegionMatch.kt" />
-        <option value="$PROJECT_DIR$/src/StringPerformance.kt" />
-        <option value="$PROJECT_DIR$/src/StringFormat.kt" />
-        <option value="$PROJECT_DIR$/src/StringAppend.kt" />
         <option value="$PROJECT_DIR$/src/ArraysSortAndSearch.kt" />
         <option value="$PROJECT_DIR$/src/ArraysLength.kt" />
         <option value="$PROJECT_DIR$/src/ArraysReverse.kt" />
@@ -165,9 +273,13 @@
         <option value="$PROJECT_DIR$/src/ClassSealed.kt" />
         <option value="$PROJECT_DIR$/src/KDoc.kt" />
         <option value="$PROJECT_DIR$/src/TipsTypealias.kt" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/TipsThis.kt" />
+        <option value="$PROJECT_DIR$/src/test.java" />
+        <option value="$PROJECT_DIR$/src/CoroutineNew.kt" />
+        <option value="$PROJECT_DIR$/src/ThreadNew.kt" />
+        <option value="$PROJECT_DIR$/src/ThreadRunable.kt" />
         <option value="$PROJECT_DIR$/KotlinCases.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -191,7 +303,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,12 +319,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541126364821" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541407607264" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -231,15 +343,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.TipsThisKt">
-    <configuration name="ClassDataKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.ThreadRunnableKt">
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="KotlinCases" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArraysExtendKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="KotlinCases" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ClassDataKt" />
+      <option name="MAIN_CLASS_NAME" value="ArraysExtendKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -258,59 +377,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TipsInfixKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="ThreadNewKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="KotlinCases" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="TipsInfixKt" />
+      <option name="MAIN_CLASS_NAME" value="ThreadNewKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TipsThisKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="ThreadRunnableKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="KotlinCases" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="TipsThisKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TipsTypealiasKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="KotlinCases" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="TipsTypealiasKt" />
+      <option name="MAIN_CLASS_NAME" value="ThreadRunnableKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.TipsInfixKt" />
-      <item itemvalue="Kotlin.ClassDataKt" />
       <item itemvalue="Kotlin.ClassSealedKt" />
-      <item itemvalue="Kotlin.TipsTypealiasKt" />
-      <item itemvalue="Kotlin.TipsThisKt" />
+      <item itemvalue="Application.test" />
+      <item itemvalue="Kotlin.ArraysExtendKt" />
+      <item itemvalue="Kotlin.ThreadNewKt" />
+      <item itemvalue="Kotlin.ThreadRunnableKt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.TipsThisKt" />
-        <item itemvalue="Kotlin.TipsTypealiasKt" />
+        <item itemvalue="Kotlin.ThreadRunnableKt" />
+        <item itemvalue="Kotlin.ThreadNewKt" />
         <item itemvalue="Kotlin.ClassSealedKt" />
-        <item itemvalue="Kotlin.ClassDataKt" />
-        <item itemvalue="Kotlin.TipsInfixKt" />
+        <item itemvalue="Kotlin.ArraysExtendKt" />
+        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -327,11 +433,20 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18923241" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.195629" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -344,8 +459,8 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.329718" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.329718" />
@@ -361,6 +476,7 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32995737" />
       <window_info anchor="right" id="Key Promoter X" order="8" weight="0.32995737" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32995737" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -371,62 +487,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/StringAppend.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArraysMaxAndMin.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArraysReverse.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArraysSortAndSearch.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArraysExtend.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArraysMerge.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArraysFill.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArraysDuplicates.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ArraysInsert.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -658,13 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/KDoc.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/OperatorOverloadInvoke.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -676,25 +729,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="350">
-            <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClassSealed.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -722,11 +756,77 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test.java" />
+    <entry file="file://$PROJECT_DIR$/src/ArraysExtend.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KDoc.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KotlinCases.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CoroutineNew.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThreadNew.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThreadRunnable.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClassSealed.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/KotlinCases.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="394">
-            <caret line="1244" column="27" selection-start-line="1244" selection-start-column="27" selection-end-line="1244" selection-end-column="27" />
+          <first_editor relative-caret-position="294">
+            <caret line="1133" column="3" lean-forward="true" selection-start-line="1100" selection-end-line="1133" selection-end-column="3" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="150">
+            <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
@@ -810,5 +910,8 @@
         </settings>
       </state>
     </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
   </component>
 </project>

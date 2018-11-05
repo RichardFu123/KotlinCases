@@ -4,6 +4,8 @@
 * 详见KotlinCases.md
 
 ---
+November 05, 2018 : update_Thread
+
 November 02, 2018 : update_This
 
 November 01, 2018 : update_Typealias
