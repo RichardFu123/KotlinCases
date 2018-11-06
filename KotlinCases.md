@@ -1,7 +1,7 @@
 # Kotlin Cases
 > Shawn
 * IDE: IntelliJ IDEA 2018.2.3
-* Kotlin: 1.2.71
+* Kotlin: 1.3.0-release-IJ2018.2-1
 * JDK: 1.8.0_161
 ----
 **强烈推荐[Kotlin官方文档](https://www.kotlincn.net/docs/reference/)**
@@ -1300,5 +1300,28 @@ fun main(args: Array<String>) {
     var This = Outside()
     This.Inside().function()
     This.func()
+}
+```
+
+### P.8 闭包 TipsClosure
+* 功能: 用闭包沟通函数内外
+* 介绍:
+    * 闭包最简单的一个例子就是"函数返回一个函数"
+    * 通过这种方法,闭包可以获取函数的运行环境以及属性.
+```kotlin
+fun TipsClosure(init: Int): (Int)->Unit{
+    var i = init
+    return fun(add: Int){
+        i+=add
+        println("here the i is: "+i)
+    }
+}
+
+fun main(args: Array<String>) {
+    val add = TipsClosure(42)
+    add(6)
+    add(6)
+    add(-11)
+    add(18)
 }
 ```
