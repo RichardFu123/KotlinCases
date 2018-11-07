@@ -4,6 +4,8 @@
 * 详见KotlinCases.md
 
 ---
+November 07, 2018 : update_Component
+
 November 06, 2018 : update_Closure
 
 November 05, 2018 : update_Thread

@@ -1325,3 +1325,19 @@ fun main(args: Array<String>) {
     add(18)
 }
 ```
+
+### P.9 解构 TipsComponent
+* 功能: 用解构来同时创建多个量
+* 介绍:
+    * 用数据量可以直接为解构的量进行初始化.
+```kotlin
+fun main(args: Array<String>) {
+    val (a,b) = tipsComponent()
+    println(a.toString()+b)
+}
+
+data class TipsComponent(val res1: Int, val res2: String)
+fun tipsComponent():TipsComponent{
+    return TipsComponent(23,"Banana")
+}
+```
