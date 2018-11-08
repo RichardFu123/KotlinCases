@@ -1341,3 +1341,28 @@ fun tipsComponent():TipsComponent{
     return TipsComponent(23,"Banana")
 }
 ```
+
+### P.10 空安全 TipsNull
+* 功能: 介绍kotlin的空安全
+* 介绍:
+    * 声明量时在类型后加问号既是声明可空量(String?)
+    * 安全调用可空量一般有三种方法:
+        * 用?.调用是安全调用,在被调用的量为空时也返回null
+        * 用!!.调用的是假定非空调用,在被调用的量为空时会发起空指针异常(NPE)
+        * 或者直接用条件判断(if-else)来事先决定好空量的处理方案
+    * 在转换类型的时候用as?可以进行安全转换,在转换失败时返回null而不是跳异常
+```kotlin
+fun main(args: Array<String>) {
+    val a = "banana"
+    val b: String? = null
+    println(a)
+    println(a?.length)
+    println(b)
+    println(b?.length)
+    try{
+        val c = b!!.length
+    }catch (NPE: NullPointerException){
+        NPE.printStackTrace()
+    }
+}
+```

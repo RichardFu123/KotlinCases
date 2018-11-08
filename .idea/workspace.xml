@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddb5e96b-2136-48bd-929d-fd8112da3f12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TipsComponent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TipsNull.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KotlinCases.md" beforeDir="false" afterPath="$PROJECT_DIR$/KotlinCases.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
@@ -49,7 +49,7 @@
           <entry key="class" value="1" />
           <entry key="iml" value="1" />
           <entry key="java" value="1" />
-          <entry key="kt" value="91" />
+          <entry key="kt" value="92" />
           <entry key="md" value="1" />
           <entry key="xml" value="2" />
         </counts>
@@ -59,7 +59,7 @@
           <entry key="CLASS" value="1" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="1" />
-          <entry key="Kotlin" value="91" />
+          <entry key="Kotlin" value="92" />
           <entry key="Markdown" value="1" />
           <entry key="XML" value="2" />
         </counts>
@@ -67,27 +67,27 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="35" />
-          <entry key="kt" value="14209" />
-          <entry key="md" value="8717" />
+          <entry key="kt" value="14334" />
+          <entry key="md" value="9008" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="35" />
-          <entry key="Kotlin" value="14209" />
-          <entry key="Markdown" value="8717" />
+          <entry key="Kotlin" value="14334" />
+          <entry key="Markdown" value="9008" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/KotlinCases.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="344">
-                <caret line="1335" column="27" lean-forward="true" selection-start-line="1335" selection-start-column="27" selection-end-line="1335" selection-end-column="27" />
+              <first_editor relative-caret-position="230">
+                <caret line="1345" column="18" lean-forward="true" selection-start-line="1345" selection-start-column="18" selection-end-line="1345" selection-end-column="18" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -97,20 +97,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TipsClosure.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="14" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="150">
-                <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+                <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -120,10 +111,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TipsComponent.kt">
+        <entry file="file://$PROJECT_DIR$/src/TipsNull.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            <state relative-caret-position="300">
+              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -145,7 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ArraysReverse.kt" />
         <option value="$PROJECT_DIR$/src/ArraysMaxAndMin.kt" />
         <option value="$PROJECT_DIR$/src/ArraysMerge.kt" />
         <option value="$PROJECT_DIR$/src/ArraysExtend.kt" />
@@ -194,6 +184,7 @@
         <option value="$PROJECT_DIR$/src/ThreadRunable.kt" />
         <option value="$PROJECT_DIR$/src/TipsClosure.kt" />
         <option value="$PROJECT_DIR$/src/TipsComponent.kt" />
+        <option value="$PROJECT_DIR$/src/TipsNull.kt" />
         <option value="$PROJECT_DIR$/KotlinCases.md" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
@@ -241,7 +232,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541562318763" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541658689598" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -259,20 +250,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.TipsComponentKt">
-    <configuration name="ClassSealedKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="KotlinCases" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ClassSealedKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.TipsNullKt">
     <configuration name="ThreadNewKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="KotlinCases" />
       <option name="VM_PARAMETERS" />
@@ -325,20 +303,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TipsNullKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="KotlinCases" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="TipsNullKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Kotlin.ClassSealedKt" />
       <item itemvalue="Kotlin.ThreadNewKt" />
       <item itemvalue="Kotlin.ThreadRunnableKt" />
       <item itemvalue="Kotlin.TipsClosureKt" />
       <item itemvalue="Kotlin.TipsComponentKt" />
+      <item itemvalue="Kotlin.TipsNullKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.TipsNullKt" />
         <item itemvalue="Kotlin.TipsComponentKt" />
         <item itemvalue="Kotlin.TipsClosureKt" />
         <item itemvalue="Kotlin.ThreadRunnableKt" />
         <item itemvalue="Kotlin.ThreadNewKt" />
-        <item itemvalue="Kotlin.ClassSealedKt" />
       </list>
     </recent_temporary>
   </component>
@@ -409,13 +400,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ArraysRetainAll.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ArraySearch.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -732,15 +716,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KotlinCases.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="344">
-            <caret line="1335" column="27" lean-forward="true" selection-start-line="1335" selection-start-column="27" selection-end-line="1335" selection-end-column="27" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
+    <entry file="file://$PROJECT_DIR$/src/TipsNull.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -748,7 +727,19 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="150">
-            <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+            <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KotlinCases.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="230">
+            <caret line="1345" column="18" lean-forward="true" selection-start-line="1345" selection-start-column="18" selection-end-line="1345" selection-end-column="18" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
