@@ -4,6 +4,8 @@
 * 详见KotlinCases.md
 
 ---
+November 09, 2018 : update_Compose
+
 November 08, 2018 : update_Null
 
 November 07, 2018 : update_Component

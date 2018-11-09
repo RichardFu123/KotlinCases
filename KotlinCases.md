@@ -1133,6 +1133,66 @@ fun main(args: Array<String>) {
 }
 ```
 
+## 10 高级函数
+
+### 10.1 调用 ComposeCall
+* 功能: 调用函数
+* 介绍:
+    * 高级函数的复合原理: 把函数本身,而不是返回值,来作为参数或者返回值.
+    * 包级函数可以直接用两个冒号调用.
+    * 类函数可以用类名加两个冒号调用.
+```kotlin
+class ComposeCall{
+    fun sayHi(){
+        println("Hi!")
+    }
+    fun sayHiToAny(any: Any){
+        println("Hi!"+any)
+    }
+}
+
+fun main(args: Array<String>) {
+    val hi = ComposeCall::sayHi
+    val composeCall = ComposeCall()
+    val arr = arrayOf("banana","Banana")
+
+    arr.forEach(::println)
+    arr.forEach(composeCall::sayHiToAny)
+    println(arr.filter(String::isNotEmpty))
+
+    println(hi)
+    println(ComposeCall::sayHiToAny)
+}
+```
+
+### 10.2 map ComposeMap
+* 功能: map的使用
+* 介绍:
+
+### 10.3 flapMap ComposeFlapMap
+* 功能: flapMap的使用
+* 介绍:
+
+### 10.4 reduce ComposeReduce
+* 功能: reduce的使用
+* 介绍:
+
+### 10.5 fold ComposeFold
+* 功能: fold的使用
+* 介绍:
+
+### 10.6 filter ComposeFilter
+* 功能: filter的使用
+* 介绍:
+
+### 10.6 let\apply ComposeLetApply
+* 功能: let\apply的使用
+* 介绍:
+
+### 10.6 with\use ComposeWithUse
+* 功能: with\use的使用
+* 介绍:
+
 ## PLUS 小技巧
 
 ### P.1 可变长参数 TipsVarargs
