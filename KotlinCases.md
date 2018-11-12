@@ -1168,6 +1168,25 @@ fun main(args: Array<String>) {
 ### 10.2 map ComposeMap
 * 功能: map的使用
 * 介绍:
+    * forEach和map都能遍历数组,不同的是:forEach会对每个元素逐个进行处理,
+    而map会统一处理完后返回一个新数组.
+    * forEach和map中,用it都能代表遍历时的单个元素.
+    * map函数可以通过传入函数来实现函数的复合.
+```kotlin
+fun main(args: Array<String>) {
+    val raw = listOf(1,2,3,3,3,3)
+    val newList = ArrayList<Int>()
+
+    raw.forEach {
+        newList.add(it+1)
+    }
+
+    println(newList)
+
+    println(raw.map{it*10})
+    println(raw.map(Int::toDouble))
+}
+```
 
 ### 10.3 flapMap ComposeFlapMap
 * 功能: flapMap的使用
