@@ -1191,6 +1191,25 @@ fun main(args: Array<String>) {
 ### 10.3 flapMap ComposeFlapMap
 * 功能: flapMap的使用
 * 介绍:
+    * 用flapMap可以将嵌套化的数组扁平化输出.
+```kotlin
+fun main(args: Array<String>) {
+    val raw = listOf(
+            1..5,
+            99..101,
+            999..1002
+    )
+    println(raw)
+    println(raw.flatMap { it })
+    println(
+            raw.flatMap {
+                intRange -> intRange.map{
+                int -> "No.$int"
+                }
+            }
+    )
+}
+```
 
 ### 10.4 reduce ComposeReduce
 * 功能: reduce的使用

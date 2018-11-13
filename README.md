@@ -4,6 +4,8 @@
 * 详见KotlinCases.md
 
 ---
+November 12, 2018 : update_ComposeFlapMap
+
 November 12, 2018 : update_ComposeMap
 
 November 09, 2018 : update_Compose
