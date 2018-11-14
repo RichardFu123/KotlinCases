@@ -1214,6 +1214,16 @@ fun main(args: Array<String>) {
 ### 10.4 reduce ComposeReduce
 * 功能: reduce的使用
 * 介绍:
+    * 使用reduce来进行累计操作.
+    * 第一个参数代表累计的最终结果.
+    * 第二个参数代表遍历时的每个元素.
+    * 后面连接的是要对元素进行的操作.
+```kotlin
+fun main(args: Array<String>) {
+    val list = listOf(5,9,10)
+    println(list.reduce{acc,i->acc*i})
+}
+```
 
 ### 10.5 fold ComposeFold
 * 功能: fold的使用
