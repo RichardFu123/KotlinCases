@@ -4,6 +4,8 @@
 * 详见KotlinCases.md
 
 ---
+November 15, 2018 : update_ComposeFilter
+
 November 15, 2018 : update_ComposeFold
 
 November 14, 2018 : update_ComposeReduce

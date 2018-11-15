@@ -1241,6 +1241,21 @@ fun main(args: Array<String>) {
 ### 10.6 filter ComposeFilter
 * 功能: filter的使用
 * 介绍:
+    * 这里介绍三个函数: filter, filterIndexed 和 takeWhile
+    * filter 可以执行遍历操作,将所有符合要求的要素全部提取
+    * filterIndexed 在 filter 的基础上将索引也纳入了判断依据
+    * takeWhile 则在出现第一个不合要求的要素的时候直接停止遍历
+```kotlin
+fun main(args: Array<String>) {
+    val list = listOf(2,3,3,3,4,3,3)
+
+    println(list.filter { it == 3 })
+
+    println(list.filterIndexed { index, i -> index == i })
+
+    println(list.takeWhile { it < 4 })
+}
+```
 
 ### 10.6 let\apply ComposeLetApply
 * 功能: let\apply的使用
