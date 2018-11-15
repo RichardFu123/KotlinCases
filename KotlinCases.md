@@ -1228,6 +1228,15 @@ fun main(args: Array<String>) {
 ### 10.5 fold ComposeFold
 * 功能: fold的使用
 * 介绍:
+    * fold可以理解为带初始值的reduce
+    * 将StringBuilder设置为初始值即可进行字符串拼接.
+```kotlin
+fun main(args: Array<String>) {
+    val list = listOf(2,3,4,4,4)
+    println(list.fold(1,{acc, i -> acc*i }))
+    println(list.fold(StringBuilder(),{ acc, i -> acc.append(i) }))
+}
+```
 
 ### 10.6 filter ComposeFilter
 * 功能: filter的使用
