@@ -596,7 +596,7 @@ class GetAndSet(){
 ### 4.6 幕后字段 ClassField
 * 功能: 用Field访问属性自身
 * 介绍:
-    * 由于在类属性的set和get内访问自身会进行递归最后导致栈溢出,所以kotlin提供了yield标识符.
+    * 由于在类属性的set和get内访问自身会进行递归最后导致栈溢出,所以kotlin提供了field标识符.
     * field不需要声明,在变量初始化后自动提供.
 ```kotlin
 fun main(args: Array<String>) {
