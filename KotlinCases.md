@@ -1257,9 +1257,40 @@ fun main(args: Array<String>) {
 }
 ```
 
-### 10.6 let\apply ComposeLetApply
-* 功能: let\apply的使用
+### 10.6 let ComposeLet
+* 功能: let的使用
 * 介绍:
+    * 用let可以直接调用对象中的属性\函数,用it指代对象.
+    * 用let也可以统一执行非空判断,当目标为null的时候不会执行let内的程序.
+```kotlin
+class ComposeLet(val s1: String, val num: Int){
+    fun printS1(){
+        println(s1)
+    }
+}
+
+fun composeLet(i: Boolean):ComposeLet?{
+    if(i){
+        return ComposeLet("Banana",12)
+    }else{
+        return null
+    }
+}
+
+fun main(args: Array<String>) {
+    ComposeLet("banana",42).let {
+        println(it.s1)
+        it.printS1()
+    }
+
+    composeLet(true)?.let {
+        it.printS1()
+    }
+    composeLet(false)?.let {
+        println(it.num)
+    }
+}
+```
 
 ### 10.6 with\use ComposeWithUse
 * 功能: with\use的使用
