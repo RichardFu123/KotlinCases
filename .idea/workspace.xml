@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddb5e96b-2136-48bd-929d-fd8112da3f12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ComposeLet.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComposeApplyAndAlso.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComposeRun.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComposeWith.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KotlinCases.md" beforeDir="false" afterPath="$PROJECT_DIR$/KotlinCases.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
@@ -51,7 +53,7 @@
           <entry key="class" value="1" />
           <entry key="iml" value="1" />
           <entry key="java" value="1" />
-          <entry key="kt" value="101" />
+          <entry key="kt" value="104" />
           <entry key="md" value="1" />
           <entry key="xml" value="2" />
         </counts>
@@ -61,7 +63,7 @@
           <entry key="CLASS" value="1" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="1" />
-          <entry key="Kotlin" value="101" />
+          <entry key="Kotlin" value="104" />
           <entry key="Markdown" value="1" />
           <entry key="XML" value="2" />
         </counts>
@@ -69,16 +71,16 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="35" />
-          <entry key="kt" value="15568" />
-          <entry key="md" value="9978" />
+          <entry key="kt" value="16170" />
+          <entry key="md" value="10400" />
           <entry key="txt" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="35" />
-          <entry key="Kotlin" value="15568" />
-          <entry key="Markdown" value="9978" />
+          <entry key="Kotlin" value="16170" />
+          <entry key="Markdown" value="10400" />
           <entry key="PLAIN_TEXT" value="34" />
         </counts>
       </usages-collector>
@@ -90,8 +92,8 @@
         <entry file="file://$PROJECT_DIR$/KotlinCases.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="56">
-                <caret line="1263" column="45" selection-start-line="1263" selection-start-column="45" selection-end-line="1263" selection-end-column="45" />
+              <first_editor relative-caret-position="137">
+                <caret line="1354" column="42" selection-start-line="1354" selection-start-column="23" selection-end-line="1354" selection-end-column="42" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -101,10 +103,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ComposeLet.kt">
+        <entry file="file://$PROJECT_DIR$/src/ComposeApplyAndAlso.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+            <state>
+              <caret selection-end-line="18" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -114,7 +116,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="162">
-                <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+                <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -140,9 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ArraysRemoveAll.kt" />
-        <option value="$PROJECT_DIR$/src/ArraysRetainAll.kt" />
-        <option value="$PROJECT_DIR$/src/ArraySearch.kt" />
         <option value="$PROJECT_DIR$/src/ArraysEquals.kt" />
         <option value="$PROJECT_DIR$/src/ArraysUnionSet.kt" />
         <option value="$PROJECT_DIR$/src/TimeDateFormat.kt" />
@@ -189,6 +188,9 @@
         <option value="$PROJECT_DIR$/src/ComposeFold.kt" />
         <option value="$PROJECT_DIR$/src/ComposeFilter.kt" />
         <option value="$PROJECT_DIR$/src/ComposeLet.kt" />
+        <option value="$PROJECT_DIR$/src/ComposeWith.kt" />
+        <option value="$PROJECT_DIR$/src/ComposeRun.kt" />
+        <option value="$PROJECT_DIR$/src/ComposeApplyAndAlso.kt" />
         <option value="$PROJECT_DIR$/KotlinCases.md" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
@@ -236,7 +238,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542596233252" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542619167736" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -254,7 +256,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.ComposeLetKt">
+  <component name="RunManager" selected="Kotlin.ComposeApplyAndAlsoKt">
+    <configuration name="ComposeApplyAndAlsoKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="KotlinCases" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ComposeApplyAndAlsoKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ComposeFilterKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="KotlinCases" />
       <option name="VM_PARAMETERS" />
@@ -263,32 +278,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="ComposeFilterKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ComposeFlapMapKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="KotlinCases" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ComposeFlapMapKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ComposeFoldKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="KotlinCases" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ComposeFoldKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -307,33 +296,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComposeReduceKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="ComposeRunKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="KotlinCases" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ComposeReduceKt" />
+      <option name="MAIN_CLASS_NAME" value="ComposeRunKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComposeWithKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="KotlinCases" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ComposeWithKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.ComposeFlapMapKt" />
-      <item itemvalue="Kotlin.ComposeReduceKt" />
-      <item itemvalue="Kotlin.ComposeFoldKt" />
       <item itemvalue="Kotlin.ComposeFilterKt" />
       <item itemvalue="Kotlin.ComposeLetKt" />
+      <item itemvalue="Kotlin.ComposeWithKt" />
+      <item itemvalue="Kotlin.ComposeRunKt" />
+      <item itemvalue="Kotlin.ComposeApplyAndAlsoKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ComposeApplyAndAlsoKt" />
+        <item itemvalue="Kotlin.ComposeRunKt" />
+        <item itemvalue="Kotlin.ComposeWithKt" />
         <item itemvalue="Kotlin.ComposeLetKt" />
         <item itemvalue="Kotlin.ComposeFilterKt" />
-        <item itemvalue="Kotlin.ComposeFoldKt" />
-        <item itemvalue="Kotlin.ComposeReduceKt" />
-        <item itemvalue="Kotlin.ComposeFlapMapKt" />
       </list>
     </recent_temporary>
   </component>
@@ -416,27 +418,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/Number.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/Primitives.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4702">
-          <caret line="544" column="37" lean-forward="true" selection-start-line="544" selection-start-column="37" selection-end-line="544" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClassGetterAndSetter.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ControlJump.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -729,11 +710,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ComposeWith.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ComposeRun.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ComposeApplyAndAlso.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/KotlinCases.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="56">
-            <caret line="1263" column="45" selection-start-line="1263" selection-start-column="45" selection-end-line="1263" selection-end-column="45" />
+          <first_editor relative-caret-position="137">
+            <caret line="1354" column="42" selection-start-line="1354" selection-start-column="23" selection-end-line="1354" selection-end-column="42" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
@@ -745,7 +747,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="162">
-            <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+            <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />

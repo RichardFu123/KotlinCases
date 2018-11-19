@@ -1257,7 +1257,7 @@ fun main(args: Array<String>) {
 }
 ```
 
-### 10.6 let ComposeLet
+### 10.7 let ComposeLet
 * 功能: let的使用
 * 介绍:
     * 用let可以直接调用对象中的属性\函数,用it指代对象.
@@ -1292,9 +1292,92 @@ fun main(args: Array<String>) {
 }
 ```
 
-### 10.6 with\use ComposeWithUse
-* 功能: with\use的使用
+### 10.8 with ComposeWith
+* 功能: with的使用
 * 介绍:
+    * with中的this用来指代传入的对象.
+    * with后接代码块的最后一行为with返回的结果.
+```kotlin
+class ComposeWith(val s: String){
+    fun printS(){
+        println(s)
+    }
+    override fun toString(): String {
+        return s+" toString"
+    }
+}
+
+fun main(args: Array<String>) {
+    val result:String = with(ComposeWith("Banana")){
+        this.printS()
+        this.toString()
+    }
+
+    println(result)
+}
+```
+
+### 10.9 run ComposeRun
+* 功能: run的使用
+* 介绍:
+    * run可以视作let和with的结合体.
+    * 既不必用it来指代对象,又简化了with的非空判断问题.
+    * 任何能用let或者with的场景都能使用run.
+```kotlin
+class ComposeRun(val s: String, val s2: String){
+    fun printS(){
+        println(s)
+    }
+}
+
+fun composeRun(i:Boolean):ComposeRun?{
+    if (i){
+        return ComposeRun("Banana","yes!")
+    }else{
+        return null
+    }
+}
+
+fun main(args: Array<String>) {
+    val s = composeRun(true)?.run {
+        printS()
+        "This will be returned."
+    }
+    composeRun(false)?.run{
+        println("Do not work.")
+    }
+
+    println(s)
+
+}
+```
+
+### 10.10 applyAndAlso ComposeApplyAndAlso
+* 功能: apply和also的应用
+* 介绍:
+    * apply与run基本一致,只是run会闭包返回最后一行的代码,而apply会返回传入的对象.
+    * also与let的关系与apply和run的关系一致.
+```kotlin
+class ComposeApplyAndAlso(val s: String){
+    fun printS(){
+        println(s)
+    }
+}
+
+fun main(args: Array<String>) {
+    val apply = ComposeApplyAndAlso("apply banana").apply {
+        printS()
+    }
+    val also = ComposeApplyAndAlso("also banana").also {
+        it.printS()
+    }
+
+    println(apply)
+    apply.printS()
+    println(also)
+    also.printS()
+}
+```
 
 ## PLUS 小技巧
 
